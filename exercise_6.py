@@ -8,7 +8,6 @@ name = input('what is your name.\n\t==> ')
 
 """Ivi ndio ulifaa kufanya"""
 def palindrome():
-    name = name.lower()
     reverse_name = []
     for i in range(len(name)):
         reverse_name.append(name[(len(name)-(i + 1))])
@@ -19,4 +18,5 @@ def palindrome():
             return
     print("Palindrome")
 
+name = name.lower()
 palindrome()
